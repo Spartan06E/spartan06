@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.2.4" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.24" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -8,7 +8,7 @@
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
 		<import addon="script.module.metahandler" version="3.99.02" />
 		<import addon="script.module.resolveurl" version="5.0.44" />
-		<import addon="script.module.openscrapers" version="0.0.1.110" />
+		<import addon="script.module.openscrapers" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
 		<import addon="context.venom" version="1.0.2"/>
 	</requires>
@@ -26,9 +26,7 @@
 		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website></website>
-		<source></source>
+		<source>https://github.com/123Venom/plugin.video.venom</source>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
@@ -204,29 +202,29 @@
     </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="0.0.1.110.ZZ3" provider-name="Addons4Kodi">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">[COLOR lime]OpenScrapers Lite[/COLOR]</summary>
-            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news>fixes</news>
-    </extension>
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="0.0.1.110.555" provider-name="Addons4Kodi">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR lime]OpenScrapers Lite[/COLOR]</summary>
+		<description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<source>https://github.com/a4k-openproject/script.module.openscrapers</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>fixes</news>
+	</extension>
 </addon>
 
 <addon id="script.module.metahandler"
