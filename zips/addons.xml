@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.26" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.27" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -22,12 +22,12 @@
 
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>false</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
-		<summary lang="en">[COLOR lime]Venom Lite Version[/COLOR] - This is a Moded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered. We do not host any of the contents streamed.</summary>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<summary lang="en">[COLOR lime]Venom Lite Version[/COLOR] - This is a Moded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.</summary>
+		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<source>https://github.com/123Venom/plugin.video.venom</source>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -173,8 +173,8 @@
 	</extension>
 </addon>
 
-<addon id="repository.spartan" name="Spartan Repo" version="7.6" provider-name="Spartan">
-	<extension point="xbmc.addon.repository" name="Spartan Repo">
+<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="7.7" provider-name="Spartan06E">
+	<extension point="xbmc.addon.repository" name="[COLOR lime]Spartan Repo[/COLOR]">
 
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml</info>
@@ -190,8 +190,8 @@
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Spartan is a educational add-on, Contents are not Official releases. We do not host any of the contents streamed.</summary>
-		<description>Spartan</description>
+		<summary>Spartan Test Repo, Contents are not Official releases. No support is offered.</summary>
+		<description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -202,7 +202,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="1.110.3" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="1.110.4" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -213,8 +213,8 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR lime]OpenScrapers Lite[/COLOR]</summary>
-		<description>[COLOR lime]OpenScrapers Lite[/COLOR] is a Moded version of OpenScrapers Module by Addons4Kodi, it is not an official release, no suuport is offered for this version.</description>
+		<summary lang="en">[COLOR lime]OpenScrapers Lite[/COLOR] is a Moded version of OpenScrapers Module by Addons4Kodi, it is not an official release, no support is offered for this version.</summary>
+		<description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
