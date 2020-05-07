@@ -1,0 +1,9 @@
+[B][COLOR lime]Venom Lite - Update - v3.6.31 - May 7, 2020[/COLOR][/B]
+             Following Venoms v363 update and fixes
+
+[B][COLOR red]Update - v3.6.3 - May 6, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Integration with new "Play from Here" option in Global
+    Context Menu. See "What's New" for more info in addon.[/I]
+[COLOR yellow]--[/COLOR][I] Code changes per cProfile function testing for speed
+    inprovements. Movie menus should now load faster
+    and more to follow.[/I]

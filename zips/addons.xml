@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.29" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.31" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
 		<import addon="script.module.metahandler" version="3.99.02" />
-		<import addon="script.module.resolveurl" version="5.0.44" />
+		<import addon="script.module.resolveurl" version="5.0.45" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
-		<import addon="context.venom" version="1.0.2"/>
+		<import addon="context.venom" version="1.0.3"/>
 	</requires>
 
 	<extension point="xbmc.python.pluginsource" library="venom.py">
@@ -22,8 +22,8 @@
 
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>false</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
-		<summary lang="en">[COLOR lime]Venom Lite Version[/COLOR] - This is a Moded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.</summary>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
+		<summary lang="en"></summary>
+		<description lang="en">[B][COLOR lime]Venom Lite Version[/COLOR] - This is a Modded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.[/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<source>https://github.com/123Venom/plugin.video.venom</source>
@@ -32,13 +32,11 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>
-        No News is Good News
-		</news>
+		<news></news>
 	</extension>
 </addon>
 
-<addon id="context.venom" version="1.0.2" name="Venom - Global Context Menu Items" provider-name="Venom">
+<addon id="context.venom" version="1.0.3" name="Venom - Global Context Menu Items" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
 	</requires>
@@ -83,15 +81,15 @@
 				</visible>
 			</item>
 
-<!-- 			<item library="playFromHere.py">
+			<item library="playFromHere.py">
 				<label>[B][COLOR red]Venom[/COLOR][/B] - Play from here</label>
 				<visible>
 					String.IsEqual(Window(home).Property(context.venom.playFromHere),true) +
-					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.venom/?action=play) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.venom/) +
 					String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					String.IsEqual(ListItem.dbtype,episode)
 				</visible>
-			</item> -->
+			</item>
 
 			<item library="autoPlay.py">
 				<label>[B][COLOR red]Venom[/COLOR][/B] - Auto Play</label>
@@ -162,13 +160,12 @@
 			<fanart>fanart.png</fanart>
 		</assets>
 		<news>
-[B][COLOR red]Update - v1.0.2 - April 29, 2020[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Fixed Rescrape option showing on unplayable items.[/I]
-[COLOR yellow]--[/COLOR][I] Added settings options to turn on and off context menu items.[/I]
-[COLOR yellow]--[/COLOR][I] Added Auto Play and Source Select context menu options to
-    be inverse of addon play method chosen.[/I]
-[COLOR yellow]--[/COLOR][I] Some options did not return to homescreen on back, this is
-    now fixed.[/I]
+[B][COLOR red]Update - v1.0.3 - May 6, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added "Play from Here" ability for continual episode playback.
+    Progress widget can now play all episodes from
+    UpNext/Progress point forward. Playlist is built and
+    autoplay begins upon selection.  Also added setting
+    to enable or disable new option in settings.[/I]
 		</news>
 	</extension>
 </addon>
@@ -202,7 +199,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="1.110.4" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="1.110.5" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -213,8 +210,8 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR lime]OpenScrapers Lite[/COLOR] is a Moded version of OpenScrapers Module by Addons4Kodi, it is not an official release, no support is offered for this version.</summary>
-		<description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
+		<summary lang="en"></summary>
+		<description>[B][COLOR lime]OpenScrapers Lite[/COLOR] is a Modded version of OpenScrapers Module by Addons4Kodi, it is not an official release, no support is offered for this version.[/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -223,7 +220,7 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>fixes</news>
+		<news></news>
 	</extension>
 </addon>
 
