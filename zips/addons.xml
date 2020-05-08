@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.31" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.41" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -10,7 +10,7 @@
 		<import addon="script.module.resolveurl" version="5.0.45" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
-		<import addon="context.venom" version="1.0.3"/>
+		<import addon="context.venom" version="1.0.4"/>
 	</requires>
 
 	<extension point="xbmc.python.pluginsource" library="venom.py">
@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="context.venom" version="1.0.3" name="Venom - Global Context Menu Items" provider-name="Venom">
+<addon id="context.venom" version="1.0.4" name="Venom - Global Context Menu Items" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
 	</requires>
@@ -67,6 +67,18 @@
 					String.IsEqual(Window(home).Property(context.venom.clearProviders),true) +
 					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.venom/?action=play) +
 					String.IsEqual(ListItem.Property(isVenom_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+
+			<item library="clearBookmark.py">
+				<label>[B][COLOR red]Venom[/COLOR][/B] - Clear Item Bookmark</label>
+				<visible>
+					String.IsEqual(Window(home).Property(context.venom.clearBookmark),true) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.venom/?action=play) +
+					String.IsEqual(ListItem.Property(isVenom_widget),true) +
+<!-- 					!String.IsEqual(ListItem.Property(resumetime),0) + -->
+					!String.IsEqual(ListItem.Property(venom_resumetime),0) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item>
@@ -160,17 +172,14 @@
 			<fanart>fanart.png</fanart>
 		</assets>
 		<news>
-[B][COLOR red]Update - v1.0.3 - May 6, 2020[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Added "Play from Here" ability for continual episode playback.
-    Progress widget can now play all episodes from
-    UpNext/Progress point forward. Playlist is built and
-    autoplay begins upon selection.  Also added setting
-    to enable or disable new option in settings.[/I]
+[B][COLOR red]Update - v1.0.4 - May 8, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added "Clear Item Bookmark".  This will only show for items
+    with a bookmark and will clear just that item only.[/I]
 		</news>
 	</extension>
 </addon>
 
-<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="7.7" provider-name="Spartan06E">
+<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="7.8" provider-name="Spartan06E">
 	<extension point="xbmc.addon.repository" name="[COLOR lime]Spartan Repo[/COLOR]">
 
 		<dir>
@@ -187,8 +196,8 @@
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Spartan Test Repo, Contents are not Official releases. No support is offered.</summary>
-		<description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
+		<summary>Spartan Test Repo</summary>
+		<description>Spartan Test Repo, Contents are not Official releases. No support is offered.This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
