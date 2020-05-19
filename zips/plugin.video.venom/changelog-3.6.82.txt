@@ -1,5 +1,5 @@
-[B][COLOR lime]Venom Lite - Update - v3.6.81 - May 17, 2020[/COLOR][/B]
-             Following Venoms v368 update and general fixes
+[B][COLOR lime]Venom Lite - Update - v3.6.82 - May 18, 2020[/COLOR][/B]
+             Following Venoms v368a update and general fixes
 
 
 [B][COLOR red]Update - v3.6.8 - May 17, 2020[/COLOR][/B]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.81" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.82" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -26,6 +26,7 @@
 		<description lang="en">[B][COLOR lime]Venom Lite Version[/COLOR] - This is a Modded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.[/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<website>https://github.com/123Venom/plugin.video.venom</website>
 		<source>https://github.com/123Venom/plugin.video.venom</source>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<assets>
