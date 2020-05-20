@@ -1,7 +1,12 @@
-[B][COLOR lime]Venom Lite - Update - v3.6.83 - May 19, 2020[/COLOR][/B]
-             Following Venoms v368a update and general fixes
+[B][COLOR lime]Venom Lite - Update - v3.6.91 - May 20, 2020[/COLOR][/B]
+             Following Venoms v3.6.9 update and general fixes
              Removed script.module.metahandler need trakt for watched indicators
 
+[B][COLOR red]Update - v3.6.9 - May 20, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added new source filtering option "File Size limit (GB)".
+    This is off by default.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed random case of fetching foreign landscape
+    from fanart.tv.[/I]
 
 [B][COLOR red]Update - v3.6.8 - May 17, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Fixed random issue with busy dialog not closing.[/I]
