@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.6.82" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.6.83" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
-		<import addon="script.module.metahandler" version="3.99.02" />
 		<import addon="script.module.resolveurl" version="5.0.46" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
@@ -26,14 +25,11 @@
 		<description lang="en">[B][COLOR lime]Venom Lite Version[/COLOR] - This is a Modded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.[/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<website>https://github.com/123Venom/plugin.video.venom</website>
-		<source>https://github.com/123Venom/plugin.video.venom</source>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news></news>
 	</extension>
 </addon>
 
@@ -204,7 +200,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.001.1" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.001.2" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -220,38 +216,10 @@
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<source>https://github.com/a4k-openproject/script.module.openscrapers</source>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news></news>
 	</extension>
-</addon>
-
-<addon id="script.module.metahandler"
-     name="metahandler"
-     version="3.99.6"
-     provider-name="Eldorado">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.6"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-  <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-      <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-      <disclaimer lang="en"></disclaimer>
-      <language></language>
-      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-      <forum></forum>
-      <website></website>
-      <email></email>
-      <source></source>
-  </extension>
 </addon>
 </addons>
