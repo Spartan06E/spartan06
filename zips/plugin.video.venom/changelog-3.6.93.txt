@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v3.6.92 - May 21, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v3.6.93 - May 21, 2020[/COLOR][/B]
              Following Venoms v3.6.9 update and general fixes
              Removed script.module.metahandler need trakt for watched indicators
 
