@@ -1,7 +1,21 @@
-[B][COLOR lime]Venom Lite - Update - v3.7.11 - May 30, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v3.7.31 - May 31, 2020[/COLOR][/B]
     IN Settings make sure "Disable Extended artwork(fanart.tv)" is set to false
                     then in tools Clear All Venom Cache
-             Following Venoms v3.7.1 update and general fixes
+             Following Venoms v3.7.3 update and general fixes
+
+
+[B][COLOR red]Update - v3.7.3 - May 31, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed issue where if fanart.tv was disabled it prevented
+    loading of seasons list.[/I]
+
+[B][COLOR red]Update - v3.7.2 - May 30, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added new TVDB api key selection between 3 possible
+    keys.  It was discovered today that some keys seem to
+    drop random shows loading a season list, and that
+    happens rarely in itself.  This server anomaly eventually
+    clears up in a day or so but flipping to a different key
+    seems to also cure the problem more immediate for
+    those that can no wait.[/I]
 
 [B][COLOR red]Update - v3.7.1 - May 29, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Set tmdb to str() in tmdb module. This broke setting
