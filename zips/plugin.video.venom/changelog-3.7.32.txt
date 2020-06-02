@@ -1,6 +1,6 @@
-[B][COLOR lime]Venom Lite - Update - v3.7.31 - May 31, 2020[/COLOR][/B]
-    IN Settings make sure "Disable Extended artwork(fanart.tv)" is set to false
-                    then in tools Clear All Venom Cache
+[B][COLOR lime]Venom Lite - Update - v3.7.32 - June 1, 2020[/COLOR][/B]
+    IN Venom Settings.. General make sure "Disable Extended artwork(fanart.tv)"
+    is set to TRUE (button on), art for titles loads faster with this feature disabled        
              Following Venoms v3.7.3 update and general fixes
 
 
