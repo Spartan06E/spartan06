@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="3.7.32" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="3.7.33" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -52,7 +52,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.001.3" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.001.4" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
