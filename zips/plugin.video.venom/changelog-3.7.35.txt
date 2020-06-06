@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v3.7.34 - June 5, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v3.7.35 - June 6, 2020[/COLOR][/B]
         
         IN Settings.. Venom Settings.. "General"
         -Set "Page Item Limit" to 40
