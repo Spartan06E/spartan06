@@ -51,7 +51,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.003.1" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.003.2" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
