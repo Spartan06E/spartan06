@@ -1,15 +1,6 @@
-[B][COLOR lime]Venom Lite - Update - v4.0.61 - Aug 6, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.0.62 - Aug 8, 2020[/COLOR][/B]
 
-        IN Settings.. Venom Settings.. "TV Shows"        
-        -Set "Include Special Episodes (Season 0)" to OFF (button grey)
-        IN Settings.. Venom Settings.. "Source Options"        
-        -Set "Enable File Size Limit" to OFF (button grey)
-        IN Settings.. Venom Settings.. "General"
-        -Set "Page Item Limit" to 40
-        -Set "Disable Extended artwork(fanart.tv)" to ON (button white)
-        IN Settings.. Venom Settings.. "API Keys"
-        -Set TVDb API Key to TVDB api key1
-        IN Tools.. Clear Venom Cache, Clear OpenScrapers Cache, Clear Metadata Cache
+        IN Tools.. Clear ALL Venom Cache
 
 [B][COLOR red]Update - v4.0.6 - Aug. 05, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Fixed issue with "Watched Count" setting dropping
