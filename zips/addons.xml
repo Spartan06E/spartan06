@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="4.0.81" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="4.1.01" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
-		<import addon="script.module.resolveurl" version="5.1.11" />
-		<import addon="script.module.openscrapers" version="2.009.1" />
+		<import addon="script.module.resolveurl" version="5.1.71" />
+		<import addon="script.module.openscrapers" version="2.011.1" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
 	</requires>
 	<extension library="venom.py" point="xbmc.python.pluginsource">
@@ -15,7 +15,7 @@
 	<extension library="service.py" point="xbmc.service" start="startup" />
 	<extension library="resources/lib/" point="xbmc.python.module" />
 	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>false</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
+		<reuselanguageinvoker>true</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
 		<summary lang="en"></summary>
 		<description lang="en">[B][COLOR lime]Venom Lite Version[/COLOR] - This is a Modded version of [COLOR red]Venom[/COLOR] and not an official release, No support is offered.[/B] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
@@ -51,7 +51,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.010.1" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="[COLOR lime]OpenScrapers Lite[/COLOR]" version="2.011.1" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -62,6 +62,7 @@
 	</extension>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<summary lang="en"></summary>
 		<description>[B][COLOR lime]OpenScrapers Lite[/COLOR] is a Modded version of OpenScrapers Module by Addons4Kodi, it is not an official release, no support is offered for this version.[/B] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
@@ -76,7 +77,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="[COLOR lime]ResolveURL[/COLOR]" version="5.1.61" provider-name="gujal">
+<addon id="script.module.resolveurl" name="[COLOR lime]ResolveURL[/COLOR]" version="5.1.71" provider-name="gujal">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" version="0.0.1"/>
