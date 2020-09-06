@@ -1,5 +1,7 @@
-[B][COLOR lime]Venom Lite - Update - v4.1.22 - Sep 05, 2020[/COLOR][/B]
-
+[B][COLOR lime]Venom Lite - Update - v4.1.23 - Sep 06, 2020[/COLOR][/B]
+       -In Venom Settings, turn  "On" "Notify Me About Available Updates" that way
+        when kodi doesnt check you can manual chk for updates in install from repo,
+        right click over repo and check for updates.
         IN Tools.. Clear Venom Cache
         IN Tools.. Clear ALL Venom Cache
 
