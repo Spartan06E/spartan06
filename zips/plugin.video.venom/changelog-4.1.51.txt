@@ -1,0 +1,72 @@
+[B][COLOR lime]Venom Lite - Update - v4.151 - Sep 13, 2020[/COLOR][/B]
+       -Free Scrapers have been removed from OpenScrapers, Real-Debrid account mandatory     
+       -In Venom Settings, turn  "On" "Notify Me About Available Updates" that way
+        when kodi doesnt check you can manual chk for updates in install from repo,
+        right click over repo and check for updates.
+       - If Movie or TV lists dont seem to be updated:        
+        IN Tools.. Clear Venom Cache
+       - After an update:        
+        IN Tools.. Clear Venom Cache
+        IN Tools.. Clear OpenScrapers Cache
+
+[B][COLOR red]Update - v4.1.5 – Sept. 13, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed typo in v4.1.4 Apple fix.[/I]
+
+[B][COLOR red]Update - v4.1.4 – Sept. 13, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Settings fix for Apple TV, curtsey of tikipeter.[/I]
+
+[B][COLOR red]Update - v4.1.3 – Sept. 09, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fix for missing context menu option "Download" when
+    selection is free or premium hoster source.[/I]
+[COLOR yellow]--[/COLOR][I] Context menu option to cache uncached torrents was also
+    showing for free hosters...this is fixed.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed incorrect path in control module.[/I]
+[COLOR yellow]--[/COLOR][I] I'm updating the News-Info file so please have a read of that.
+
+[B][COLOR red]Update - v4.1.2 – Sept. 05, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed hosters not displayed from previous update.  Hoster
+    support may be removed is the near future.[/I]
+
+[B][COLOR red]Update - v4.1.1 – Sept. 04, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed issue with fresh install failing with log error notice.[/I]
+
+[B][COLOR red]Update - v4.1.0 – Sept. 03, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added "File Name Format" option to downloads.  You
+    have the option of "Title (year) or Title S01E01", which is
+    the older file naming method.  Or you can chose
+    "torrent file name".[/I]
+[COLOR yellow]--[/COLOR][I] Fixed random issue where meta fallback would replace
+    "tvshowtitle" with episode "title".  This caused issues with
+    OpenInfo or TMDbHelper failing lookup of the show.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed playback issue with OpenInfo where video playing
+    was in background.  This occurred when a search was
+    performed first and then accessing OpenInfo to play
+    from.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed PM expiry date when viewing Account Info.[/I]
+[COLOR yellow]--[/COLOR][I] Added All Debrid support for cache checking and
+    removal of uncached torrents.[/I]
+[COLOR yellow]--[/COLOR][I] Added All Debrid support for resolving of pack files
+    for playback.[/I]
+[COLOR yellow]--[/COLOR][I] Added All Debrid support for context menu option to
+    cache uncached torrents.[/I]
+[COLOR yellow]--[/COLOR][I] Added All Debrid support for downloading from source
+    select.[/I]
+[COLOR yellow]--[/COLOR][I] Added All Debrid support for "Browse Debrid Pack".[/I]
+[COLOR yellow]--[/COLOR][I] Fixed "My Movies" "Date Added" sorting.  Previously it
+    was stuck at descending sort order due to Trakt api key
+    for "listed_at" was not assigned.  This is now fixed.[/I]
+[COLOR yellow]--[/COLOR][I] Renamed "Unfinished" in My Movies and My TV Shows
+    to "Continue Watching".  Limit has been reduced to 40
+    items. Trakt On Deck is now removed as this was the
+    same list with only 20 items so I feel this was a good
+    compromise. Sort order is now set to be based on date
+    paused.[/I]
+[COLOR yellow]--[/COLOR][I] "reuselanguageinvoker" is now officially hard coded on.
+    There is a new service settings management system
+    courtesy of Tikipeter,  so credit goes to him!!![/I]  There
+    is still an option for user to turn this off if not comfortable. 
+[COLOR yellow]--[/COLOR][I] TVShows Originals is now on
+    by default.[/I]
+[COLOR yellow]--[/COLOR][I] Youtube is now on by default.[/I]
+[COLOR yellow]--[/COLOR][I] Please be sure to update "context.venom" to v1.0.6 for
+    compliant changes.[/I]
