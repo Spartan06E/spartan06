@@ -1,7 +1,7 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.12 - Sep 26, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.2.13 - Sep 26, 2020[/COLOR][/B]
       Big Changes, Read v4.2.0 news,
       FenomScrapers replaces OpenScrapers, resolveurl no longer used.
-      -In FenomScraper Settings turn on Hosters 2ddl, RLSBB and Scenerls
+      -In FenomScrapers Settings turn on Hosters 2ddl, RLSBB and Scenerls
       Must Re-authorize Trakt and Real Debrid in settings and sync with new addon
       called My Accounts. Start with Trakt it will open My Accounts, auth Trakt then
       Auth Real-Debrid.

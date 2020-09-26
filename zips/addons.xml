@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" version="4.2.12" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="4.2.13" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.myaccounts" version="1.0.0" />
+		<import addon="script.module.myaccounts" version="1.0.1" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
-		<import addon="script.module.fenomscrapers" version="0.0.001a" />
+		<import addon="script.module.fenomscrapers" version="1.0.2" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="venom.py">
