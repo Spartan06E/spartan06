@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.venom" version="4.1.51" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" version="4.2.11" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.myaccounts" version="1.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3" />
-		<import addon="script.module.resolveurl" version="5.1.71" />
-		<import addon="script.module.openscrapers" version="2.011.1" />
+		<import addon="script.module.fenomscrapers" version="0.0.001a" />
 		<import addon="script.module.addon.signals" version="0.0.3" />
 	</requires>
-	<extension library="venom.py" point="xbmc.python.pluginsource">
+	<extension point="xbmc.python.pluginsource" library="venom.py">
 		<provides>video</provides>
 	</extension>
-	<extension library="service.py" point="xbmc.service" start="startup" />
-	<extension library="resources/lib/" point="xbmc.python.module" />
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
 		<summary lang="en"></summary>

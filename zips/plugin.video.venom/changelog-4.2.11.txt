@@ -1,13 +1,40 @@
-[B][COLOR lime]Venom Lite - Update - v4.151 - Sep 13, 2020[/COLOR][/B]
-       -Free Scrapers have been removed from OpenScrapers, Real-Debrid account mandatory     
-       -In Venom Settings, turn  "On" "Notify Me About Available Updates" that way
-        when kodi doesnt check you can manual chk for updates in install from repo,
-        right click over repo and check for updates.
-       - If Movie or TV lists dont seem to be updated:        
-        IN Tools.. Clear Venom Cache
-       - After an update:        
-        IN Tools.. Clear Venom Cache
-        IN Tools.. Clear OpenScrapers Cache
+[B][COLOR lime]Venom Lite - Update - v4.2.11 - Sep 26, 2020[/COLOR][/B]
+      Big Changes, Read v4.2.0 news,
+      FenomScrapers replaces OpenScrapers, resolveurl no longer used.
+      -In FenomScraper Settings turn on Hosters 2ddl, RLSBB and Scenerls
+      Must Re-authorize Trakt and Real Debrid in settings and sync with new addon
+      called My Accounts.
+       - After this update:        
+        IN Tools.. Clear ALL Venom Cache
+        OpenScrapers and resolveurl should be uninstalled and if you are using addons
+        other than Venom then the proper repos for the official OpenScrapers and
+        resolveurl releases should be installed and install the offical OpenScrapers and
+        resolveurl addons over the ones I had modded.
+
+[B][COLOR red]Update - v4.2.1 – Sept. 26, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] fix incorrect version bump.[/I]
+
+[B][COLOR red]Update - v4.2.0 – Sept. 26, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Free hoster and foreign scraper support has been removed
+    due to limited time to maintain.  Premium hosters supported
+    by AD, PM, and RD is still supported.[/I]
+[COLOR yellow]--[/COLOR][I] New scraper pack called "Fenom Scrapers" per above
+    changes and OpenScrapers is no longer to be maintained.[/I]
+[COLOR yellow]--[/COLOR][I] Venom now integrates with a new addon to access your
+    account information called "My Accounts".  My Accounts
+    allows any addon to access the authorized info so if
+    adopted by other developers it would eliminate the
+    need to authorize in every addon you use.
+    This does however require a new initial setup.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed missing download option for premium hosters.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed library imports where disabled notifications would
+    prematurely terminate the import process.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed invalid characters displayed in source select.[/I]
+[COLOR yellow]--[/COLOR][I] Source select has been re-written for the removal of
+    "Free" hoster streams.  A new layout is now
+    in place and includes an elapsed timer count.[/I]
+[COLOR yellow]--[/COLOR][I] New bookmark options to use exist local bookmarks
+    or Trakt scrobble.[/I]
 
 [B][COLOR red]Update - v4.1.5 – Sept. 13, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Fixed typo in v4.1.4 Apple fix.[/I]
