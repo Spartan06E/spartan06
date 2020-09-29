@@ -1,16 +1,14 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.15 - Sep 28, 2020[/COLOR][/B]
-      Big Changes, Read v4.2.0 news,
-      FenomScrapers replaces OpenScrapers, resolveurl no longer used.
-      -In FenomScrapers Settings turn on Hosters 2ddl, RLSBB and Scenerls
-      Must Re-authorize Trakt and Real Debrid in settings and sync with new addon
-      called My Accounts. Start with Trakt it will open My Accounts, auth Trakt then
-      Auth Real-Debrid.
-       - After this update:        
-        IN Tools.. Clear ALL Venom Cache
-        OpenScrapers and resolveurl should be uninstalled OR if you are using addons
-        other than Venom then the proper repos for the official OpenScrapers and
-        resolveurl releases should be installed and install the offical OpenScrapers and
-        resolveurl addons over the ones I had modded.
+[B][COLOR lime]Venom Lite - Update - v4.2.21 - Sep 29, 2020[/COLOR][/B]
+
+        IN Tools.. Clear Venom Cache
+
+[B][COLOR red]Update - v4.2.2 – Sept. 29, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed seven instances of missing ID's in settings.xml.  This
+    just caused a constant cleaning of these 7 items that were
+    never called or referenced.  This now avoids that notice.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed scraper progress dialog displaying to many scraper
+    names for skins with small progress dialogs.  Names will not
+    display until the remaining count reaches 6.[/I]
 
 [B][COLOR red]Update - v4.2.1 – Sept. 26, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] fix incorrect version bump.[/I]
