@@ -1,6 +1,14 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.21 - Sep 29, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.2.31 - Oct 01, 2020[/COLOR][/B]
 
         IN Tools.. Clear Venom Cache
+
+[B][COLOR red]Update - v4.2.3 – Oct. 01, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed "Premium Services" Auth methods as this now
+    uses "My Accounts" and was missed in previous updates.[/I]
+[COLOR yellow]--[/COLOR][I] Reformat of scrape progress dialog to make better use
+    of available space.[/I]
+[COLOR yellow]--[/COLOR][I] Code cleanup and removal of logging from previous
+    version.[/I]
 
 [B][COLOR red]Update - v4.2.2 – Sept. 29, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Fixed seven instances of missing ID's in settings.xml.  This
