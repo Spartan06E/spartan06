@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="8.0.3" provider-name="Spartan06E">
+<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="8.0.4" provider-name="Spartan06E">
 	<extension point="xbmc.addon.repository" name="[COLOR lime]Spartan Repo[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/</datadir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/</datadir>
+		</dir>
 
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/mr-kodi/repository.myaccounts/master/zips/addons.xml</info>
