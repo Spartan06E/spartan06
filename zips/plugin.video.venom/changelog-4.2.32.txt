@@ -1,6 +1,7 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.31 - Oct 01, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.2.32 - Oct 02, 2020[/COLOR][/B]
 
         IN Tools.. Clear Venom Cache
+        IN Tools.. Clear Providers Cache
 
 [B][COLOR red]Update - v4.2.3 – Oct. 01, 2020[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Removed "Premium Services" Auth methods as this now
