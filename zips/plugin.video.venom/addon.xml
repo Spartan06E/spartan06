@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.venom" version="4.2.43" name="[COLOR lime]Venom Lite[/COLOR]" provider-name="Venom">
+<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="4.2.44" provider-name="Venom">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="context.venom" version="1.0.0" />
 		<import addon="script.module.myaccounts" version="1.0.2" />
 		<import addon="script.module.fenomscrapers" version="1.0.4" />
 		<import addon="script.module.requests" version="2.19.1" />
