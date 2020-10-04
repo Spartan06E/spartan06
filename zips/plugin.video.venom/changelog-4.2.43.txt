@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.42 - Oct 03, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.2.43 - Oct 04, 2020[/COLOR][/B]
 
         IN Tools.. Clear Venom Cache
         IN Tools.. Clear Providers Cache
