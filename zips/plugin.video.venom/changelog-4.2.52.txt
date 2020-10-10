@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v4.2.51 - Oct 09, 2020[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.2.52 - Oct 10, 2020[/COLOR][/B]
         IN Tools.. Clear Venom Cache
         IN Tools.. Clear Providers Cache
         IN FenomScrapers Settings.. set Hosters RLSBB and SCENERLS to On
