@@ -1,0 +1,173 @@
+[B][COLOR lime]Venom Lite - Update - v4.3.21 - Dec. 30, 2020[/COLOR][/B]
+        IN Settings.. Set your color preffs in the various sections
+        IN Tools.. Clear Venom Cache
+        IN Tools.. Clear Providers Cache
+        IN FenomScrapers Settings.. Hosters click Default.
+                                    Torrents click Default.
+
+[B][COLOR red]Update - v4.3.2 - Dec. 30, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed Library Update failure issue due to closed database.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed Global Context Menu option "Clear Bookmark" call.[/I]
+[COLOR yellow]--[/COLOR][I] Trakt Manager will no longer show "Scrobble Reset" if user
+    settings are configured for "Local Bookmarks".[/I]
+[COLOR yellow]--[/COLOR][I] Home screen widget refresh now more consistent than
+    before.[/I]
+[COLOR yellow]--[/COLOR][I] Removed setting for Source Select to show "Extra Info".
+    This is now the hard coded default.[/I]
+[COLOR yellow]--[/COLOR][I] Source Select has been re-written to now show secondary
+    line "file_name", similar to Torrent files.  It now follows
+    secondary line type like torrents.[/I]
+[COLOR yellow]--[/COLOR][I] Source Select secondary line options now better grouped
+    in Settings.[/I]
+[COLOR yellow]--[/COLOR][I] AD, PM, and RD cache check of torrent requests is now
+    threaded for performance.[/I]
+
+[B][COLOR red]Update - v4.3.1 - Dec. 18, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed Anime Movies and TV Shows menu not advancing to
+    next page.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed RD caching of uncached torrents, stalled at file select.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed RD "My Downloads" not loading results.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed Trakt sync for "Scrobble Reset" items not sync'd to
+    other devices.[/I]
+[COLOR yellow]--[/COLOR][I] Added ability to auto start playback upon completion of
+    caching uncached torrent.[/I]
+[COLOR yellow]--[/COLOR][I] Added new "yes-no" dialog when cancelling caching of
+    uncached torrent.  Now user has the option to
+    close progress dialog but allow premium service
+    to continue it's download, or close and cancel both.[/I]
+[COLOR yellow]--[/COLOR][I] Request to add debrid account expiry notification.  This
+    has now been added to the "My Accounts" addon.[/I]
+[COLOR yellow]--[/COLOR][I] Removed "Multi-Line Source Select" setting.  This is now
+    the hard coded default.[/I]
+[COLOR yellow]--[/COLOR][I] Uncached torrents now has it's own color setting choice
+    under "Torrent Settings".[/I]
+[COLOR yellow]--[/COLOR][I] Due to settings changes the entire "Source Options"
+    category has be rearranged.  A new heading has been
+    added to better group settings based on the flow of
+    scraping process and source selection.  It is advisable
+    to review and save settings.[/I]
+
+[B][COLOR red]Update - v4.3.0 - Dec. 5, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed resolve issue with pack files when playing episode10
+    would replay episode9 if quality was 1080p.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed failed library playback issue if Venom's metacache was
+    cleared after a title was added to the library.[/I]
+
+[B][COLOR red]Update - v4.2.9 - Nov. 29, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed for some skins info dialog not closing when playback
+    initiated from this info dialog.[/I]
+[COLOR yellow]--[/COLOR][I] Changed Venom scrape, resolve, and removed source link
+    dialog heading to now display the item being scraped vs.
+    the addon name as heading.[/I]
+[COLOR yellow]--[/COLOR][I] Added Trakt Watched status service sync.[/I]
+[COLOR yellow]--[/COLOR][I] Added setting to the "Source Options" to enable/disable the
+    IMDb year check before scraping.  See Help below setting
+    for more info[/I]
+
+[B][COLOR red]Update - v4.2.8 - Nov. 12, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed Download context menu option.[/I]
+[COLOR yellow]--[/COLOR][I] Added a pre-fetch for Season watched and unwatched count.[/I]
+
+[B][COLOR red]Update - v4.2.7 - Nov. 06, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed TVShows Season level watched indicators.
+    Previously the Season level did not refresh the cached
+    watch status upon detection of a playcount change, this
+    is now fixed.[/I]
+[COLOR yellow]--[/COLOR][I] Added new startup service to detect a mismatch
+    in the current reuselanguageinvoker setting vs. an update
+    change.  Upon change detection user will be presented
+    with the option to revert or accept the new setting.  Any
+    change made and the users profile will be reloaded.
+    There is no longer a need to restart Kodi as this is now
+    done via reloading users profile.[/I]
+[COLOR yellow]--[/COLOR][I] Added check for Google Drive account.  If present,
+    and no debrid account exists, user will not longer be
+    presented with a notification that a debrid account is
+    required since these are direct playable links.[/I]
+[COLOR yellow]--[/COLOR][I] New "traktSync.db" has been added. When user
+    enables the "Trakt" category setting "Enable scrobbling",
+    and also sets "Resume Point source" to "Trakt scrobbles",
+    an initial sync will retrieve your complete Trakt Progress for
+    all Movies and Shows.  At any time playback is stopped,
+    before the normal 85% for "mark as watched", the
+    scrobble pause will be saved to local db as well as sent
+    to Trakt to maintain synchronization.  A service check is
+    performed at 15 minute intervals to compare the latest
+    "paused_at" db entry with that from the Trakt api.  This
+    assures that another device in your home will get
+    updated for changes.  This maintains sync across
+    multiple devices.[/I]
+[COLOR yellow]--[/COLOR][I] For the item above a new option has been added
+    to the "Trakt Manager" called "Scrobble Reset".  This
+    removes the given item from the local db and sends
+    "progress=0" to Trakt "scrobble/start".  A 
+    "container.refresh()" is then issued so 
+    the changes are seen instantly.[/I]
+
+[B][COLOR red]Update - v4.2.6 – Oct. 13, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed settings for remove uncached torrents. Under
+    some conditions an item my be unavailable for AD, PM,
+    or RDd torrents.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed AD cache check when a single item from a
+    list request contained an error the cache check process
+    halted.[/I]
+[COLOR yellow]--[/COLOR][I] Reduced the number of visible named scrapers
+    for the progressDialog.  AuraMod skin had a slight overlap
+    with the progress bar.[/I]
+
+[B][COLOR red]Update - v4.2.5 – Oct. 09, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed cache check setting for AD, PM, and RD,
+    this is now hard coded on to always check cached status.
+    You can still enable/disable showing of uncached torrents.[/I]
+[COLOR yellow]--[/COLOR][I] Removed setting to enable/disable pack scraping.
+    This is now hard coded on.[/I]
+[COLOR yellow]--[/COLOR][I] Fix for random container refresah issues
+    during playback.[/I]
+[COLOR yellow]--[/COLOR][I] Fix for Furk resolve issue.[/I]
+
+[B][COLOR red]Update - v4.2.4 – Oct. 03, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed old exo code for configurable "New Movies"
+    and "New Episodes".  All items were currently availalbe.[/I]
+[COLOR yellow]--[/COLOR][I] Renamed a few menu items.[/I]
+[COLOR yellow]--[/COLOR][I] Code changes for "My Accounts" changes.[/I]
+
+[B][COLOR red]Update - v4.2.3 – Oct. 01, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed "Premium Services" Auth methods as this now
+    uses "My Accounts" and was missed in previous updates.[/I]
+[COLOR yellow]--[/COLOR][I] Reformat of scrape progress dialog to make better use
+    of available space.[/I]
+[COLOR yellow]--[/COLOR][I] Code cleanup and removal of logging from previous
+    version.[/I]
+
+[B][COLOR red]Update - v4.2.2 – Sept. 29, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed seven instances of missing ID's in settings.xml.  This
+    just caused a constant cleaning of these 7 items that were
+    never called or referenced.  This now avoids that notice.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed scraper progress dialog displaying to many scraper
+    names for skins with small progress dialogs.  Names will not
+    display until the remaining count reaches 6.[/I]
+
+[B][COLOR red]Update - v4.2.1 – Sept. 26, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] fix incorrect version bump.[/I]
+
+[B][COLOR red]Update - v4.2.0 – Sept. 26, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Free hoster and foreign scraper support has been removed
+    due to limited time to maintain.  Premium hosters supported
+    by AD, PM, and RD is still supported.[/I]
+[COLOR yellow]--[/COLOR][I] New scraper pack called "Fenom Scrapers" per above
+    changes and OpenScrapers is no longer to be maintained.[/I]
+[COLOR yellow]--[/COLOR][I] Venom now integrates with a new addon to access your
+    account information called "My Accounts".  My Accounts
+    allows any addon to access the authorized info so if
+    adopted by other developers it would eliminate the
+    need to authorize in every addon you use.
+    This does however require a new initial setup.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed missing download option for premium hosters.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed library imports where disabled notifications would
+    prematurely terminate the import process.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed invalid characters displayed in source select.[/I]
+[COLOR yellow]--[/COLOR][I] Source select has been re-written for the removal of
+    "Free" hoster streams.  A new layout is now
+    in place and includes an elapsed timer count.[/I]
+[COLOR yellow]--[/COLOR][I] New bookmark options to use exist local bookmarks
+    or Trakt scrobble.[/I]
