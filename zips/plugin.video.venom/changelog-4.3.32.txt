@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v4.3.31 - Jan. 01, 2021[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.3.32 - Jan. 02, 2021[/COLOR][/B]
         IN Settings.. Set your color preffs in the various sections
         IN Tools.. Clear Venom Cache
         IN Tools.. Clear Providers Cache
