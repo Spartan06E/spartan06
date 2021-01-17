@@ -1,7 +1,7 @@
-[B][COLOR lime]Venom Lite - Update - v4.3.51 - Jan. 17, 2021[/COLOR][/B]
-        IN Tools.. Clear All Cache
-        IN FenomScrapers Settings.. Hosters click Default.
-                                    Torrents click Default.
+[B][COLOR lime]Venom Lite - Update - v4.3.52 - Jan. 17, 2021[/COLOR][/B]
+[COLOR lime]--[/COLOR] IN Tools.. Clear All Cache
+[COLOR lime]--[/COLOR] IN FenomScrapers Settings.. Hosters click Default.
+[COLOR lime]--[/COLOR] IN FenomScrapers Settings.. Torrents click Default.
 
 [B][COLOR red]Update - v4.3.5 - Jan. 17, 2021[/COLOR][/B]
 [COLOR yellow]--[/COLOR][I] Fixed random playback failures of EasyNews links.[/I]
