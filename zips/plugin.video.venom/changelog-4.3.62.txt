@@ -1,5 +1,6 @@
-[B][COLOR lime]Venom Lite - Update - v4.3.61 - Jan. 17, 2021[/COLOR][/B]
-[COLOR lime]--[/COLOR] IN Tools.. Clear All Cache
+[B][COLOR lime]Venom Lite - Update - v4.3.62 - Jan. 18, 2021[/COLOR][/B]
+[COLOR lime]--[/COLOR] IN Tools.. Clear Cache
+[COLOR lime]--[/COLOR] IN Tools.. Clear Scraper Cache
 [COLOR lime]--[/COLOR] IN FenomScrapers Settings.. Hosters click Default.
 [COLOR lime]--[/COLOR] IN FenomScrapers Settings.. Torrents click Default.
 
