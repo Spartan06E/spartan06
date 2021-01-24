@@ -1,4 +1,6 @@
-[B][COLOR lime]Venom Lite - Update - v4.3.71 - Jan. 23, 2021[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.3.72 - Jan. 23, 2021[/COLOR][/B]
+[COLOR lime]--[/COLOR] IN Settings, General.. Set icon logos to Meta Provider
+[COLOR lime]--[/COLOR] IN Settings, General.. Set Page item limit to 20
 [COLOR lime]--[/COLOR] IN Tools.. Clear Cache
 [COLOR lime]--[/COLOR] IN Tools.. Clear Scraper Cache
 [COLOR lime]--[/COLOR] IN FenomScrapers Settings.. Hosters click Default.
