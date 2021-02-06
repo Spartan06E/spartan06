@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v4.3.75 - Jan. 31, 2021[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v4.3.77 - Feb. 6, 2021[/COLOR][/B]
 [COLOR lime]--[/COLOR] IN Settings, General.. Set Page item limit to 20
 [COLOR lime]--[/COLOR] IN Tools.. Clear Cache
 [COLOR lime]--[/COLOR] IN Tools.. Clear Scraper Cache
