@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="8.1.0" provider-name="Spartan 6">
+<addon id="repository.spartan" name="[COLOR lime]Spartan Repo[/COLOR]" version="8.1.1" provider-name="Spartan">
     <extension point="xbmc.addon.repository" name="[COLOR lime]Spartan Repo[/COLOR]">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Spartan06E/spartan06/master/zips/addons.xml</info>
@@ -15,11 +15,6 @@
             <info compressed="false">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/zip</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
