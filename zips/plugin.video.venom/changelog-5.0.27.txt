@@ -1,6 +1,0 @@
-[B][COLOR lime]Venom Lite - Update - v5.0.27 - May 1, 2021[/COLOR][/B]
-[COLOR lime]--[/COLOR] IN Tools.. Clear All Cache
-[COLOR lime]--[/COLOR] IN FenomScrapers Settings.. choose Fenomscrapers Default providers.
-
-[B][COLOR red]Update - v5.0.2 - April 25, 2021[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Fixed two typos in recent library module update.[/I]
