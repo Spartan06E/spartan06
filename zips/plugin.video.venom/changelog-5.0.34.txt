@@ -1,4 +1,4 @@
-[B][COLOR lime]Venom Lite - Update - v5.0.33 - May 3, 2021[/COLOR][/B]
+[B][COLOR lime]Venom Lite - Update - v5.0.34 - May 4, 2021[/COLOR][/B]
 [COLOR lime]--[/COLOR] IN Tools.. Clear All Cache
 [COLOR lime]--[/COLOR] IN FenomScrapers Settings.. choose Fenomscrapers Default providers.
 
