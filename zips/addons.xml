@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="5.0.41" provider-name="Venom Lite">
+<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="5.0.411" provider-name="Venom Lite">
 	<requires>
 		<import addon="script.module.myaccounts" />
 		<import addon="script.module.fenomscrapers" />
