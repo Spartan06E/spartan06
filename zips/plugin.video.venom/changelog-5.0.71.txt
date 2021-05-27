@@ -1,0 +1,7 @@
+
+[B][COLOR lime]Venom Lite Update - v5.0.71 - May 26, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed multiple issues with Matrix skins requiring "tvshow.clearart" and "tvshow.clearlogo" at
+    season and episode level vs. simply "clearart" and "clearlogo".[/I]
+[COLOR yellow]--[/COLOR][I] All "Help", "Changelog", and "NewsInfo" files have been converted to window xml's to pave the
+    way for complete transition to windows xml's throughout. Slow migration over to new setup.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed 24hr Delay setting not working for Library integration.[/I]
