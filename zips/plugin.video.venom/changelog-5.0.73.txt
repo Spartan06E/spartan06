@@ -1,0 +1,3 @@
+
+[COLOR yellow]--[/COLOR][I] In Tools - Clear All Cache.[/I]
+[COLOR yellow]--[/COLOR][I] In Settings - FenomScrapers Settings - Set FenomScrapers Default Providers.[/I]
