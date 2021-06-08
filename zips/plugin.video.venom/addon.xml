@@ -1,4 +1,4 @@
-<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="5.1.42" provider-name="Venom Lite">
+<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="5.1.43" provider-name="Venom Lite">
 	<requires>
 		<import addon="script.module.myaccounts" />
 		<import addon="script.module.fenomscrapers" />
