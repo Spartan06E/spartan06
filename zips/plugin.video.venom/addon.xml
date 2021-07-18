@@ -1,4 +1,4 @@
-<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="6.0.61" provider-name="Venom Lite">
+<addon id="plugin.video.venom" name="[COLOR lime]Venom Lite[/COLOR]" version="6.0.71" provider-name="Venom Lite">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.myaccounts" />
